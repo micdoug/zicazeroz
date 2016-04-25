@@ -112,4 +112,5 @@ class ZicaZeroZ:
         graphs = []
         for v in initial_volunteers:
             graphs.append(self.bfs_zica(v))
+        # todo: No caso de empate das respostas disponíveis, escolher aquela cuja a soma dos vértices seja a menor
         return min(graphs, key=len)

@@ -45,25 +45,6 @@ if __name__ == '__main__':
     print(vparams)
 
 
-    # contributions = ListGraph(['v1', 'v2', 'v3', 'v4', 'v5', 'f1', 'f2', 'f3', 'f4'])
-    # contributions.add_edge('v1', ['f1', 'f2'])
-    # contributions.add_edge('v2', ['f1'])
-    # contributions.add_edge('v3', 'f2')
-    # contributions.add_edge('v4', ['f2', 'f3'])
-    # contributions.add_edge('v5', 'f4')
-    #
-    # friendships = ListGraph(['v{}'.format(v) for v in range(1, 6)])
-    # friendships.add_edge('v1', ['v2', 'v3'])
-    # friendships.add_edge('v2', ['v1', 'v3', 'v4'])
-    # friendships.add_edge('v3', ['v1', 'v2', 'v4'])
-    # friendships.add_edge('v4', ['v2', 'v3', 'v5'])
-    # friendships.add_edge('v5', 'v4')
-    # zica = ZicaZeroZ(friendships, contributions, ['f{}'.format(v) for v in range(1, 5)])
-    # vparams = zica.get_min_volunteers_graph()
-    # print(vparams)
-
-
-
 
 
 
